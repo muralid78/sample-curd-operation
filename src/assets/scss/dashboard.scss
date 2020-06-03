@@ -1,0 +1,23 @@
+@import "sample-pro/variables";
+@import "sample-pro/mixins";
+
+// Core CSS
+@import "sample-pro/buttons";
+@import "sample-pro/inputs";
+@import "sample-pro/typography";
+@import "sample-pro/misc";
+@import "sample-pro/checkboxes-radio";
+
+// components
+@import "sample-pro/navbar";
+@import "sample-pro/page-header";
+
+@import "sample-pro/nucleo-outline";
+@import "sample-pro/tables";
+@import "sample-pro/sidebar-and-main-panel";
+@import "sample-pro/footers";
+
+// cards
+@import "sample-pro/cards";
+
+@import "sample-pro/responsive";

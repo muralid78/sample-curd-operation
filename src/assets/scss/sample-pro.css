@@ -1,0 +1,36 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Base-level rules cannot contain the parent-selector-referencing character \'&\'.\A         on line 25 of C:/Users/murali.duppati/Desktop/sample-pro-react-master/src/assets/scss/sample-pro/mixins/_inputs.scss, in `placeholder\'\A         from line 1 of C:/Users/murali.duppati/Desktop/sample-pro-react-master/src/assets/scss/sample-pro/_inputs.scss\A         from line 10 of C:\Users\murali.duppati\Desktop\sample-pro-react-master\src\assets\scss\sample-pro.scss\A \A 20: @import "sample-pro/nucleo-outline";\A 21: @import "sample-pro/tables";\A 22: @import "sample-pro/sidebar-and-main-panel";\A 23: @import "sample-pro/footers";\A 24: \A 25: \A 26: // cards\A 27: @import "sample-pro/cards";\A 28: \A 29: \A 30: @import "sample-pro/responsive";';
+}
+
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error.checkbox label,
+.has-error.checkbox-inline label,
+.has-error.radio label,
+.has-error.radio-inline label {
+  color: #a94442;
+}
+
+.has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+
+.has-error .input-group-addon {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #a94442;
+}
