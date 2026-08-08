@@ -15,7 +15,7 @@
     "react-notification-alert": "0.0.12",
     "react-router": "5.0.0",
     "react-router-dom": "5.0.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-toast-notifications": "^2.4.0",
     "reactjs-toastr": "^1.1.0",
     "reactstrap": "8.0.0",
